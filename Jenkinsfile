@@ -2,9 +2,9 @@ pipeline {
 
   environment {
 
-    registry = "sankethshinde/devops24thaprilproject"
+    registry = "dhananjay45/my-python-app"
 
-    registryCredential = 'docker-creds'
+    registryCredential = 'docker-credentials'
 
     dockerImage = ''
 
@@ -18,7 +18,7 @@ pipeline {
 
       steps {
 
-        git 'https://github.com/shindesanket/Docker-Jenkins-Demo'
+        git 'https://github.com/Dhananjayvasireddy/DevopsProject'
 
       }
 
